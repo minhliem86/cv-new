@@ -343,7 +343,7 @@ class CreateCvPortfolioDatabase extends Migration {
                 $table->integer('role_id')->nullable()->unsigned();
                 $table->string('name', 191);
                 $table->string('email', 191);
-                $table->string('avatar', 191)->nullable()->default(users/default.png);
+                $table->string('avatar', 191)->nullable();
                 $table->string('password', 191);
                 $table->string('remember_token', 100)->nullable();
                 $table->text('settings')->nullable();

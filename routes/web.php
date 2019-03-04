@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +14,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/seed', function (){
+    return 'done';
+});
 
 Route::group(['prefix' => 'admin'], function () {
 

@@ -24,6 +24,7 @@ return [
     'seeds' => [
         'ignore_tables' => [
             // Add tables
+
         ],
         'use_tables' => [
 
