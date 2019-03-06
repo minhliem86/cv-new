@@ -41,17 +41,19 @@
 <!-- Icon Fonts -->
 <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/fonts/map-icons/css/map-icons.min.css">
 <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/fonts/icomoon/style.css">
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 
-<!-- Styles -->
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.bxslider/jquery.bxslider.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.mediaelement/mediaelementplayer.min.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.fancybox/jquery.fancybox.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.owlcarousel/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.owlcarousel/owl.theme.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.optionpanel/option-panel.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/style.css">
-<link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/colors/theme-color.css">
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.mediaelement/mediaelementplayer.min.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.owlcarousel/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/js/plugins/jquery.optionpanel/option-panel.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/style.css">
+    <link rel="stylesheet" type="text/css" href="{!! asset('public/assets/web') !!}/colors/theme-color.css">
+
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

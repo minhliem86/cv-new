@@ -7546,17 +7546,6 @@ mejs.version = "2.18.2", mejs.meIndex = 0, mejs.plugins = {
                 return e("html, body").animate({
                     scrollTop: 0
                 }, 800), !1
-            }), e(".contact-submit").on("click", function(t) {
-                I(e(this).parent(), t.pageX, t.pageY);
-                var i, n = e(this).closest(".contactForm"),
-                    o = n.find(".input-field"),
-                    s = n.find(".contact-name"),
-                    a = n.find(".contact-email"),
-                    r = n.find(".contact-message"),
-                    l = n.find(".contact-response");
-                return o.removeClass("error"), i = !1, "" === s.val() && (i = !0, s.parent().addClass("error")), "" !== a.val() && _(a.val()) || (i = !0, a.parent().addClass("error")), "" === r.val() && (i = !0, r.parent().addClass("error")), i || e.post("php/contact_form.php", n.serialize(), function(e) {
-                    l.html(e)
-                }), !1
             }), y(), v()
         });
         var N, $ = e(window).width(),

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eeb2a88fd6489c233847b4bfdf64a7b0",
+    "content-hash": "0384f028b65707c5c3d4034ac294be6b",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1372,6 +1372,60 @@
                 "psysh"
             ],
             "time": "2018-10-12T19:39:35+00:00"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v5.4.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "f04965dc688254f4c77f684ab0b42264f9eb9634"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/f04965dc688254f4c77f684ab0b42264f9eb9634",
+                "reference": "f04965dc688254f4c77f684ab0b42264f9eb9634",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.4.*",
+                "illuminate/routing": "5.4.*",
+                "illuminate/session": "5.4.*",
+                "illuminate/support": "5.4.*",
+                "illuminate/view": "5.4.*",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "illuminate/database": "5.4.*",
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "http://laravelcollective.com",
+            "time": "2017-08-12T15:52:38+00:00"
         },
         {
             "name": "league/flysystem",
@@ -3237,16 +3291,16 @@
         },
         {
             "name": "tcg/voyager",
-            "version": "v1.1.11",
+            "version": "v1.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/the-control-group/voyager.git",
-                "reference": "fec85ad099b0d6e96d18891342824c7b9e5db59b"
+                "reference": "dcffeb6f10b93bfc383851ea4ca2b48381b3f04b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/fec85ad099b0d6e96d18891342824c7b9e5db59b",
-                "reference": "fec85ad099b0d6e96d18891342824c7b9e5db59b",
+                "url": "https://api.github.com/repos/the-control-group/voyager/zipball/dcffeb6f10b93bfc383851ea4ca2b48381b3f04b",
+                "reference": "dcffeb6f10b93bfc383851ea4ca2b48381b3f04b",
                 "shasum": ""
             },
             "require": {
@@ -3299,7 +3353,7 @@
                 "laravel",
                 "panel"
             ],
-            "time": "2018-12-27T15:57:24+00:00"
+            "time": "2019-02-20T17:04:02+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3398,6 +3452,59 @@
                 "environment"
             ],
             "time": "2019-01-29T11:11:52+00:00"
+        },
+        {
+            "name": "yocmen/html-minify",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yocmen/html-minify.git",
+                "reference": "6df8630a37a8364b52281f1a59bf23fe3a7b3a2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yocmen/html-minify/zipball/6df8630a37a8364b52281f1a59bf23fe3a7b3a2b",
+                "reference": "6df8630a37a8364b52281f1a59bf23fe3a7b3a2b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.x",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yocmen\\HtmlMinify": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Trevor Fitzgerald",
+                    "email": "fitztrev@gmail.com"
+                },
+                {
+                    "name": "Yocsel Mendoza",
+                    "email": "yocmen@gmail.com"
+                }
+            ],
+            "description": "Minifies the HTML output of Laravel 5 applications (Originally from https://github.com/fitztrev/laravel-html-minify)",
+            "homepage": "https://github.com/yocmen/html-minify",
+            "keywords": [
+                "blade",
+                "compress",
+                "html",
+                "l5",
+                "laravel",
+                "minifier",
+                "minify",
+                "optimization",
+                "performance"
+            ],
+            "time": "2016-08-01T23:14:08+00:00"
         }
     ],
     "packages-dev": [
