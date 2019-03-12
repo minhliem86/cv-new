@@ -4525,6 +4525,11 @@ body {
 /**
  * 14.0 - Footer
  */
+.text-footer{
+  font-size:12px;
+  font-style: italic;
+  color:#b9b9b9;
+}
 .footer-social {
   padding: 30px 0; }
   .footer-social .social li a .rsicon {

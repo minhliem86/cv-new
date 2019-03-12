@@ -181,6 +181,7 @@ return [
         App\Modules\ModuleServiceProvider::class,
         Orangehill\Iseed\IseedServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        App\Providers\ComposerServiceProvider::class,
 
     ],
 

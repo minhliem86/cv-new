@@ -20,17 +20,18 @@
     <div class="widget-area">
         <aside class="widget widget-profile">
             <div class="profile-photo">
-                <img src="{!! asset('public/assets/web') !!}/img/uploads/rs-photo-v2.jpg" alt="Robert Smith"/>
+                <img src="{!! asset('public/assets/web') !!}/img/profile/LP-mobile.jpg" alt="Liem Phan"/>
             </div>
             <div class="profile-info">
-                <h2 class="profile-title">Robert Smith</h2>
-                <h3 class="profile-position">Developer and Startup entrepreneur</h3>
+                <h2 class="profile-title">{!! $profiles->name !!}</h2>
+                <h3 class="profile-position">{!! $profiles->job_title !!}</h3>
             </div>
         </aside><!-- .widget-profile -->
 
         <aside class="widget widget_contact">
             <h2 class="widget-title">Contact Me</h2>
-            <form class="contactForm" action="https://rscard.px-lab.com/html/php/contact_form.php" method="post">
+            <form class="contactForm" action="{!! route('web.register') !!}" method="post">
+                {{ csrf_field() }}
                 <div class="input-field">
                     <input class="contact-name" type="text" name="name"/>
                     <span class="line"></span>

@@ -5,7 +5,7 @@
         <div class="head-bar-inner">
             <div class="row">
                 <div class="col-sm-3 col-xs-6">
-                    <a class="logo" href="index-2.html"><span>RS</span>card</a>
+                    <a class="logo" href="index-2.html"><span>RST</span>cv</a>
                 <!-- <a class="head-logo" href=""><img src="{!! asset('public/assets/web') !!}/img/rs-logo.png" alt="RScard"/></a> -->
                 </div>
 

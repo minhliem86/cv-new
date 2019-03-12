@@ -6,4 +6,7 @@
             <li><a class="ripple-centered" href="https://www.instagram.com/" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
         </ul>
     </div>
+    <div class="text-footer text-center">
+        <p class="color-light">The theme is owned by PXlab.</p>
+    </div>
 </footer><!-- .footer -->

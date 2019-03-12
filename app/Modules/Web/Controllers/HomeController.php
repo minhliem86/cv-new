@@ -37,6 +37,7 @@ class HomeController extends Controller
         $expers = $this->experience->all(['time','company_name','position', 'content']);
         $educations = $this->education->all(['time', 'title', 'school_name']);
         $categories = $this->category->all(['*'],['projects']);
-        return view('Web::pages.index', compact(['profiles', 'skills', 'expers', 'educations', 'categories']));
+//        \View::share('profiles', $profiles);
+        return view('Web::pages.index', compact(['skills', 'expers', 'educations', 'categories']));
     }
 }

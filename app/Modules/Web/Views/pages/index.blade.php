@@ -8,7 +8,7 @@
                 <div class="profile">
                     <div class="row">
                         <div class="col-xs-5">
-                            <div class="profile-photo"><img src="{!! asset('public/assets/web') !!}/img/uploads/rs-photo-v1.jpg" alt="Robert Smith"/></div>
+                            <div class="profile-photo"><img src="{!! asset('public/assets/web') !!}/img/profile/LiemPhan.jpg" alt="Liem Phan"/></div>
                         </div>
                         <div class="col-xs-7">
                             <div class="profile-info">
@@ -42,7 +42,7 @@
             </div>
 
             <div class="section-txt-btn">
-                <p><a class="btn btn-lg btn-border ripple" target="_blank" href="http://dev.novembit.com/rs_card/wp-content/uploads/2015/11/test-1.pdf">Download Resume</a></p>
+                <p><a class="btn btn-lg btn-border ripple" target="_blank" href="{!! asset('public/assets/web/LiemPhan-CV.docx') !!}">Download Resume</a></p>
                 <div>
                     {!! $profiles->about_me !!}
                 </div>
