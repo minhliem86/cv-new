@@ -182,7 +182,7 @@ return [
         Orangehill\Iseed\IseedServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         App\Providers\ComposerServiceProvider::class,
-
+        RenatoMarinho\LaravelPageSpeed\ServiceProvider::class
     ],
 
     /*

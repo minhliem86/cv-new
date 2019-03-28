@@ -9,12 +9,13 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "htmlmin/htmlmin": "^5.7",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "v5.4.9",
         "orangehill/iseed": "^2.6",
-        "tcg/voyager": "^1.1",
-        "yocmen/html-minify": "2.*"
+        "renatomarinho/laravel-page-speed": "^1.8",
+        "tcg/voyager": "^1.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

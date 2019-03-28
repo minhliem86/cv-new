@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>RScard</title>
+    <title>RSTcv</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/ico" href="{!! asset('public/assets/web') !!}/img/favicon.png"/>
